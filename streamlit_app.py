@@ -4,9 +4,7 @@ from snowflake.snowpark.context import get_active_session
 
 # Write directly to the app
 st.title(":cup_with_straw: Example Streamlit App :cup_with_straw:")
-st.write(
-    """Choose the fruits you want in your custom Smoothie!).
-    """)
+st.write("""Choose the fruits you want in your custom Smoothie!""")
 from snowflake.snowpark.functions import col
 
 session = get_active_session()
